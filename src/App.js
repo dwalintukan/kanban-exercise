@@ -1,14 +1,11 @@
 import React from 'react';
+import Kanban from './Kanban';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          React Kanban Board
-        </p>
-      </header>
+    <div>
+      <Kanban />
     </div>
   );
 }
