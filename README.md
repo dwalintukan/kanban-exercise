@@ -16,7 +16,7 @@ Create a Kanban Board within React.
    1. `name`: The name of task. This is the unique identification for every task. [STRING]
    2. `stage`: The stage of the task. [NUMBER]
 
-5. Be able to add a new Task with an `<input>` field and a `<button>`. This will be inserted into the bottom of the `Backlog`. 
+5. Be able to add a new Task with an `<input>` field and a `<button>`. This will be inserted into the bottom of the `Backlog`.
 
 # Create React App 
 

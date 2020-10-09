@@ -3,12 +3,10 @@ import './App.css';
 
 function Kanban() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          React Kanban Board
-        </p>
-      </header>
+    <div className="root">
+      <h1 className="header">React Kanban Board</h1>
+      <div className="board">
+      </div>
     </div>
   );
 }
