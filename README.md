@@ -2,6 +2,9 @@
 
 Create a Kanban Board within React.
 
+Example:
+https://blog.taskpigeon.co/use-kanban-boards-manage-marketing/
+
 ## Requirements
 
 1. The board should have 4 stages of tasks: `Backlog`, `To Do`, `Ongoing`, `Done`.
