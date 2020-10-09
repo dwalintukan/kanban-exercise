@@ -2,6 +2,24 @@
 
 Create a Kanban Board within React.
 
+## Requirements
+
+1. The board should have 4 stages of tasks: `Backlog`, `To Do`, `Ongoing`, `Done`.
+2. Each stage of tasks should have an unordered list of `Tasks`.
+3. Each `Task` should have two buttons:
+
+   1. `Back button`: This moves the task to the previous stage in the sequence, if any. This button is disabled if the task is in the first stage.
+   2. `Forward button`: This moves the task to the next stage in the sequence, if any. This button is disabled if the task is in the last stage.
+
+4. Each `Task` has two properties:
+
+   1. `name`: The name of task. This is the unique identification for every task. [STRING]
+   2. `stage`: The stage of the task. [NUMBER]
+
+5. Be able to add a new Task with an `<input>` field and a `<button>`. This will be inserted into the bottom of the `Backlog`. 
+
+# Create React App 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
