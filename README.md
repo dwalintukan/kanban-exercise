@@ -8,20 +8,23 @@ https://blog.taskpigeon.co/use-kanban-boards-manage-marketing/
 ## Requirements
 
 1. The board should have 4 stages of tasks: `Backlog`, `To Do`, `Ongoing`, `Done`.
-2. Each stage of tasks should have an unordered list of `Tasks`.
+2. Each stage of tasks should have an unordered list of `Tasks`. (doesn't imply `Class` usage)
 3. Each `Task` should have two buttons:
 
-   1. `Back button`: This moves the task to the previous stage in the sequence, if any. This button is disabled if the task is in the first stage.
-   2. `Forward button`: This moves the task to the next stage in the sequence, if any. This button is disabled if the task is in the last stage.
+   1. `Back`: node -  This moves the task to the previous stage in the sequence, if any. This button is disabled if the task is in the first stage.
+   2. `Forward`: node -  This moves the task to the next stage in the sequence, if any. This button is disabled if the task is in the last stage.
 
 4. Each `Task` has two properties:
 
-   1. `name`: The name of task. This is the unique identification for every task. [STRING]
-   2. `stage`: The stage of the task. [NUMBER]
+   1. `name`: string - The name of task. This is the unique identification for every task.
+   2. `stage`: number - The stage of the task.
 
-5. Be able to add a new Task with an `<input>` field and a `<button>`. This will be inserted into the bottom of the `Backlog`.
+5. Be able to add a new Task:
 
-# Create React App 
+   1. Add an `<input>` component to put the name of the new Task
+   2. Add a `<button>` component to insert the new Task to the bottom of the `Backlog`
+
+# Create React App (React App Boilerplate)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
