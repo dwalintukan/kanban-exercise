@@ -9,7 +9,7 @@ https://blog.taskpigeon.co/use-kanban-boards-manage-marketing/
 
 1. The board should have 4 stages of tasks: `Backlog`, `To Do`, `Ongoing`, `Done`.
 2. Each stage of tasks should have an unordered list of `Tasks`. (doesn't imply `Class` usage)
-3. Each `Task` should have two buttons:
+3. Each `Task` should have two buttons. If you want to use icons, check the [FontAwesome Icons section](#fontawesome-icons):
 
    1. `Back`: node -  This moves the task to the previous stage in the sequence, if any. This button is disabled if the task is in the first stage.
    2. `Forward`: node -  This moves the task to the next stage in the sequence, if any. This button is disabled if the task is in the last stage.
@@ -23,6 +23,26 @@ https://blog.taskpigeon.co/use-kanban-boards-manage-marketing/
 
    1. Add an `<input>` component to put the name of the new Task
    2. Add a `<button>` component to insert the new Task to the bottom of the `Backlog`
+
+## FontAwesome Icons
+
+Search icons here:
+[https://fontawesome.com/icons?d=gallery](https://fontawesome.com/icons?d=gallery)
+
+Example:
+
+```js
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+
+function SomeComponent() {
+  return (
+    <div>
+      <FontAwesomeIcon icon={faCoffee} />
+    </div>
+  );
+}
+```
 
 # Create React App (React App Boilerplate)
 
