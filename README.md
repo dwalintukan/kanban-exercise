@@ -7,22 +7,28 @@ Example Kanban Board:
 
 ## Requirements
 
-1. The board should have 4 stages of tasks: `Backlog`, `To Do`, `Ongoing`, `Done`.
-2. Each stage of tasks should have an unordered list of `Tasks`. (doesn't imply `Class` usage)
-3. Each `Task` should have two buttons. If you want to use icons, check the [FontAwesome Icons section](#fontawesome-icons):
+1. The board should have 4 Stages (columns) of Tasks:
 
-   1. `Back`: node -  This moves the task to the previous stage in the sequence, if any. This button is disabled if the task is in the first stage.
-   2. `Forward`: node -  This moves the task to the next stage in the sequence, if any. This button is disabled if the task is in the last stage.
+   - `Backlog`
+   - `To Do`
+   - `Ongoing`
+   - `Done`
 
-4. Each `Task` has two properties:
+2. Each Stage of Tasks should have an `unordered list of Tasks`.
 
-   1. `name`: string - The name of task. This is the unique identification for every task.
-   2. `stage`: number - The stage of the task.
+3. Each Task should have `two navigation buttons`. If you want to use icons, check the [FontAwesome Icons section](#fontawesome-icons):
 
-5. Be able to add a new Task:
+   1. `Back` - This moves the Task to the previous Stage in the sequence, if possible. This button is disabled if the Task is in the first Stage.
+   2. `Forward` - This moves the Task to the next Stage in the sequence, if possible. This button is disabled if the Task is in the last Stage.
 
-   1. Add an `<input>` component to put the name of the new Task
-   2. Add a `<button>` component to insert the new Task to the bottom of the `Backlog`
+4. Each Task has these properties:
+
+   1. `id` - The unique identifier for a Task.
+   2. `name` - The name of Task.
+   3. `stage` - The Stage of the Task.
+   4. `assignee` - The person the Task is assigned to.
+
+5. Have a `Form` to be able to add a new Task. When inserting a new Task, it should appear in the `backlog`.
 
 ## FontAwesome Icons
 
