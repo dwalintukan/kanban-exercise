@@ -2,8 +2,8 @@
 
 Create a Kanban Board within React.
 
-Example:
-https://blog.taskpigeon.co/use-kanban-boards-manage-marketing/
+Example Kanban Board:
+![image](https://user-images.githubusercontent.com/4350404/133505867-55f4052c-72e9-4803-861a-071fa41e55a4.png)
 
 ## Requirements
 
