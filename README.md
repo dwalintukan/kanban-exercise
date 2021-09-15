@@ -30,6 +30,8 @@ Example Kanban Board:
 
 5. Have a `Form` to be able to add a new Task. When inserting a new Task, it should appear in the `backlog`.
 
+6. Store the state of the Tasks in a `Redux Store`, or whatever Memory Store of your choosing.
+
 ## FontAwesome Icons
 
 Search icons here:
